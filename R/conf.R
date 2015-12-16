@@ -5,20 +5,22 @@
 #'  - setting of working directory (depenfing on user's comupter name)
 #'  - loading all libraries used in the project
 #'  - sourcing of all util scipts used in project
-computer.name()
+
 
 # ------------------------------------------------------------------------------
 # Set working directory
 
 computer.name <- Sys.info()["nodename"] 
-if (computer.name == "marta-komputer") 
-  wd.tmp <- "/home/martakarass/onet-project"
+
+if (computer.name == "ojojoj") 
+  wd.tmp <- "/home/marta/Documents/Tabloid"
 if (computer.name == "JANUSZ"){
   wd.tmp <- "C:/Repository/Onet_wyjsciowy/Tabloid"
   Sys.setenv(JAVA_HOME='C:/Program Files (x86)/Java/jre1.8.0_66/')
 }
-setwd(wd.tmp)
 
+setwd(wd.tmp)
+message(getwd())
 
 # ------------------------------------------------------------------------------
 # Load libraries

@@ -33,7 +33,7 @@ sylaby_PATH       <- './dane/pochodne/sylaby.csv'
 EXAMPLES_expert_PATH <- './dane/dane_expert/EXAMPLES_expert.txt'
 EXAMPLES_participants_PATH <- './dane/dane_user/EXAMPLES_participants.txt'
 
-data_preprocessed1_learning_PATH <- './data_prepared/data_preprocessed1_learning.csv'
+data_preprocessed1_learning_PATH <- './data_prepared/data_preprocessed1_nonlabelled.csv'
 data_preprocessed1_labelled_PATH <- './data_prepared/data_preprocessed1_labelled.csv'
 
 

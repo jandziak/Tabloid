@@ -10,19 +10,6 @@
 #' @author 
 #' martakarass@gmail.com
 
-# install.packages('devtools')
-# install.packages('koRpus')
-# install.packages('rJava')
-# install.packages('data.table')
-# install.packages('bit64')
-
-
-library(koRpus)
-library(rJava)
-library(data.table)
-library(bit64)
-library(dplyr)
-
 
 # Define path for directries with data 
 termstats_PATH    <- './dane/dane_expert/ARTICLES_termstats.dat'
